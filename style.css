@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  text-align: center;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -12,7 +11,7 @@ body {
   align-items: center;
   justify-content: space-around;
   background-color: #1f2937;
-  padding-bottom: 32px;
+  padding-bottom: 48px;
 }
 
 ul {
@@ -29,7 +28,7 @@ a {
   text-decoration: none;
 }
 
-.logo {
+.header .logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
@@ -40,34 +39,75 @@ a {
   color: #e5e7eb;
 }
 
-/* BODY */
+/* BODY FIRST HALF */
 
 .body1 {
   background-color: #1f2937;
   display: flex;
+  padding-bottom: 72px;
+  align-items: center;
 }
 
 .body1 .left {
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
 }
 
 .body1 .left h1 {
   font-size: 48px;
   font-weight: bold;
   color: #f9faf8;
+  display: flex;
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .body1 .left p {
-  font-size: 18px;
+  font-size: 19px;
   color: #e5e7eb;
-  width: inherit;
-  padding-left: auto;
-  padding-right: auto;
+  display: flex;
+  margin-top: 0;
+  text-align: left;
 }
+
+button {
+  padding: 10px 35px;
+  border-radius: 8px;
+}
+
+button.sign-up {
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid #3882f6;
+  font-weight: bold;
+  display: flex;
+  font-size: 18px;
+}
+
+.body1 .right {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.body1 .right img{
+  width: 500px;
+  height: 250px;
+}
+
+/* BODY SECOND HALF */
+
+.body2{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* FOOTER  */
 
-.footer{
+.footer {
   margin-top: auto;
   background-color: #1f2937;
   color: white;
