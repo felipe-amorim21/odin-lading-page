@@ -146,6 +146,34 @@ button.sign-up {
   color: #1f2937;
 }
 
+/* QUOTATION PART */
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.quote p {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 0;
+}
+
 /* FOOTER  */
 
 .footer {
